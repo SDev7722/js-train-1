@@ -62,6 +62,7 @@ console.log('isEmptyString("Hello")', isEmptyString("Hello")); // Виведе: 
 function checkDataType(value) {
   // Отримуємо тип значення value за допомогою оператора typeof
   // Виводимо у консоль повідомлення, яке містить значення value та його тип
+  // Повертаємо тип значення value
 }
 
 // Приклади виклику функції
