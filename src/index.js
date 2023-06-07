@@ -6,6 +6,7 @@ function isEvenNumber(num) {
   // Повернути результат перевірки (true або false) як результат функції
 }
 
+console.log("Завдання 1 ====================================");
 console.log("isEvenNumber(10)", isEvenNumber(10)); // Виведе: true
 console.log("isEvenNumber(7)", isEvenNumber(7)); // Виведе: false
 
@@ -18,6 +19,7 @@ function calculateSum(n) {
   // Повернути значення змінної sum
 }
 
+console.log("Завдання 2 ====================================");
 console.log("calculateSum(5)", calculateSum(5)); // Виведе: 15
 console.log("calculateSum(10)", calculateSum(10)); // Виведе: 55
 
@@ -32,6 +34,7 @@ function isPrimeNumber(num) {
   // Якщо під час циклу не знайдено дільників, то num є простим, тому повертаємо true
 }
 
+console.log("Завдання 3 ====================================");
 console.log("isPrimeNumber(7)", isPrimeNumber(7)); // Виведе: true
 console.log("isPrimeNumber(10)", isPrimeNumber(10)); // Виведе: false
 
@@ -43,6 +46,7 @@ function isPositiveNumber(num) {
   // В іншому випадку, якщо num менше або дорівнює 0, то num не є позитивним, тому повертаємо false
 }
 
+console.log("Завдання 4 ====================================");
 console.log("isPositiveNumber(5)", isPositiveNumber(5)); // Виведе: true
 console.log("isPositiveNumber(-2)", isPositiveNumber(-2)); // Виведе: false
 
@@ -54,6 +58,7 @@ function isEmptyString(str) {
   // В іншому випадку, якщо str містить хоча б один символ, то str не є порожнім рядком, тому повертаємо false
 }
 
+console.log("Завдання 5 ====================================");
 console.log('isEmptyString("")', isEmptyString("")); // Виведе: true
 console.log('isEmptyString("Hello")', isEmptyString("Hello")); // Виведе: false
 
@@ -67,6 +72,7 @@ function checkDataType(value) {
 }
 
 // Приклади виклику функції
+console.log("Завдання 6 ====================================");
 console.log("checkDataType(42)", checkDataType(42)); // Виведе: Значення "42" має тип "number".
 console.log("checkDataType('Hello')", checkDataType("Hello")); // Виведе: Значення "Hello" має тип "string".
 console.log("checkDataType(true)", checkDataType(true)); // Виведе: Значення "true" має тип "boolean".
@@ -81,6 +87,7 @@ function findMax(num1, num2) {
 }
 
 // Приклади виклику функції
+console.log("Завдання 7 ====================================");
 console.log("findMax(10, 5)", findMax(10, 5)); // Виведе: 10
 console.log("findMax(8,12)", findMax(8, 12)); // Виведе: 12
 console.log("findMax(7, 7)", findMax(7, 7)); // Виведе: 7
@@ -97,6 +104,7 @@ function getUserStatus(age) {
 }
 
 // Приклади виклику функції
+console.log("Завдання 8 ====================================");
 console.log("getUserStatus(15)", getUserStatus(15)); // Виведе: "Неповнолітній"
 console.log("getUserStatus(25)", getUserStatus(25)); // Виведе: "Дорослий"
 console.log("getUserStatus(70)", getUserStatus(70)); // Виведе: "Пенсіонер"
@@ -119,6 +127,7 @@ function getDayOfWeek(dayNumber) {
 }
 
 // Приклади виклику функції
+console.log("Завдання 9 ====================================");
 console.log("getDayOfWeek(1)", getDayOfWeek(1)); // Виведе: "Понеділок"
 console.log("getDayOfWeek(3)", getDayOfWeek(3)); // Виведе: "Середа"
 console.log("getDayOfWeek(6)", getDayOfWeek(6)); // Виведе: "Субота"
@@ -137,6 +146,7 @@ function getVariableType(variable) {
 }
 
 // Приклади виклику функції
+console.log("Завдання 10 ====================================");
 console.log("getVariableType(10)", getVariableType(10)); // Виведе: "Це число"
 console.log('getVariableType("Hello")', getVariableType("Hello")); // Виведе: "Це рядок"
 console.log("getVariableType(true)", getVariableType(true)); // Виведе: "Це булеве значення"
@@ -150,6 +160,7 @@ function factorial(n) {
   // Якщо n більше за 1, ми множимо n на результат виклику тієї самої функції з n-1.
 }
 
+console.log("Завдання 11 ====================================");
 console.log("factorial(5)", factorial(5)); // Виведе: 120
 console.log("factorial(10)", factorial(10)); // Виведе: 3628800
 
@@ -161,6 +172,7 @@ function makeAdder(x) {
 
 // Створюємо змінну getAdder якій присвоємо результат виконання функції makeAdder з аргументом 5
 
+console.log("Завдання 12 ====================================");
 console.log("getAdder(10)", getAdder(10)); // Виведе: 15
 console.log("makeAdder(5)(10)", makeAdder(5)(10)); // Виведе: 15
 
@@ -169,6 +181,7 @@ let multiply = (x, y) => {
   // Повертаємо добуток x та y
 };
 
+console.log("Завдання 13 ====================================");
 console.log("multiply(5, 3)", multiply(5, 3)); // Виведе: 15
 
 // Задача 14: Задача: створити каріровану функцію `divide`, яка може бути викликана як `divide(x)(y)`, щоб отримати результат ділення `x` на `y`.
@@ -180,6 +193,7 @@ function divide(x) {
 
 // Створюємо змінну getDivider якій присвоємо результат виконання функції divide з аргументом 2
 
+console.log("Завдання 14 ====================================");
 console.log("getDivider(10)", getDivider(10)); // Виведе: 0.2
 console.log("divide(2)(10)", divide(2)(10)); // Виведе: 0.2
 
@@ -201,6 +215,7 @@ function memoizedArea() {
 
 //Створюємо змінну squareArea якій присвоємо результат виконання функції memoizedArea
 
+console.log("Завдання 15 ====================================");
 console.log("squareArea(5)", squareArea(5)); // Обчислює і виводить 25
 console.log("squareArea(5)", squareArea(5)); // Виводить "Fetching from cache" і виводить 25 з кешу
 console.log("squareArea(6)", squareArea(6)); // Обчислює і виводить 36
@@ -211,6 +226,7 @@ let cube = function (n) {
   // Повертаємо n в кубі
 };
 
+console.log("Завдання 16 ====================================");
 console.log("cube(3)", cube(3)); // Виведе: 27
 
 // Задача 17: створити дві функції, одна з яких збільшує число на 1, а інша - множить число на 2, а потім створити композицію цих функцій.
@@ -229,4 +245,5 @@ function compose(func1, func2) {
 
 // Створюємо змінну createCompose якій присвоємо результат виконання функції compose з аргументами increment та double
 
+console.log("Завдання 17 ====================================");
 console.log("createCompose(5)", createCompose(5)); // Виведе: 12 (5+1=6, 6*2=12)
